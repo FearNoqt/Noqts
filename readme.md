@@ -1,4 +1,5 @@
 -- setting window
+local noqt = loadstring(game:HttpGet("https://raw.githubusercontent.com/FearNoqt/Noqts/refs/heads/main/uilibrary.lua"))()
 local window = UILibrary:CreateWindow("Titlebar")
 -- setting tabs
 local tab1 = UILibrary:AddTab(window, "Main")
