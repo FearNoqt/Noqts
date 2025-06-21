@@ -167,3 +167,5 @@ function UILibrary:AddLabel(tab, text)
 
     return label
 end
+
+return UILibrary
